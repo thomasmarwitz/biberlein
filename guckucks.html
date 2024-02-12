@@ -1,0 +1,18 @@
+<button id="biberknopf">Wo ist mein Biiber?</button>
+
+<br>
+<br>
+
+<div id="Karton" style="display:none;">
+    <img src="beaver.gif" alt="A beaver dancing" width="300px">
+    <p>Da ist der Biiber!</p>
+</div>
+
+<script>
+    const knopf = document.getElementById("biberknopf")
+    knopf.addEventListener("click", () => {
+        const Karton = document.getElementById("Karton")
+        Karton.style.display= ""
+    })
+
+</script>
